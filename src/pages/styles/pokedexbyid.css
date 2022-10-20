@@ -6,12 +6,12 @@
     overflow: hidden;
     /* border-width: 10px;
     border-style: solid; */
-    height: auto;
+    height: 90%;
     position: relative;
     left: 50%;
+    bottom: 80px;
     transform: translateX(-50%);
     background: linear-gradient(177.03deg, #030706 -11.97%, #0D1211 57.49%, #5A5E5D 135.64%);
-
 }
 .card-poke__header2{
     height: 160px;
@@ -109,37 +109,79 @@
 }
 .card-poke__moves{
     font-size: 2rem;
-    margin-top: 15px;
-    margin-bottom: 0px;;
+    margin-top: 10px;
+    margin-bottom: -10px;;
     padding-left: 10px;
     font-family:'Franklin Gothic Medium';
     color:#ecdbdbbf;
 }
 
 .moves__container{
-    margin-top: 15px;
+    /* margin-top: 15px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1px 10px;
     justify-items: center;
     padding: 5px 5px 5px;
-    bottom: 350px;
-    margin-bottom: 200px;
-    font-size: 13px;
+    height: 1000px;
+   
+    margin-bottom: 30%;
+    font-size: 13px; */
+}
+
+@media (max-width: 360px) {
+    .moves__container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px 5px;
+        justify-items: center;
+        /* padding: 10px 5px 30px; */
+        background-color: #030706;
+        bottom: auto;
+        margin-bottom: 150px ;
+        margin-top: 30px ;
+        font-size: 13px;
+        
+    }
+
+   .link-poke__bnt{
+    margin-top: 250px ;
+   }
+   .card-pokemon2{
+    margin-top: 120px;
+   }
+   .pokedex__img-id{
+    width: 50%;
+    height: 50px;
+    margin-top: 18px;
+  }
+  .podex-eclipce2{
+    
+    left: 268px;
+    top: 68px;
+  
+    }
+    .podex-eclipce1{
+    box-sizing: border-box;
+    position: absolute;
+    left: 250px;
+    }
+    
+    
 }
 .move__type{
     padding: auto auto;
     padding-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    padding-bottom: 5px;
+
     text-align: center;
    
     border-radius: 20px;
     font-family:  'Arial Narrow';
     font-size: 15px;
     color: white;
-    border: 2px;
+ 
     font-size: 13px;
 }
 .card-poke__stat-number{
@@ -156,7 +198,7 @@
     position: absolute;
     height: 30px;
     border-radius: 15px;
-    margin-bottom: 5rem;
+   top: 1780px;
     left: 50%;
     transform: translateX(-50%);
     font-family:'Franklin Gothic Medium';
@@ -167,120 +209,6 @@
     filter:brightness(1.1);
 
 }
-
-
-@media (min-width: 768px) {
-    .card-pokemon2{
-        margin-top: 20px;
-        width: 80%;
-        max-width: 700px;
-        overflow: hidden;
-        height: auto;
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-    
-    
-    }
-    .card-poke__header2 {
-        height: 260px;
-        position: relative;
-        margin-top: 40px;
-        margin-bottom: 3px;
-
-    }
-    .card-poke__sprite2{
-        width: 50%;
-        position: absolute;
-        top: -50px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    
-    .card-poke__Stats2{
-        font-size: 2rem;
-        margin-bottom: 1rem;
-        padding-left: 64px;
-    }
-    
-    .header_pokedex2{
-        margin-top: 0;
-        margin-right: auto;
-    
-    }
-   
-    .pokedex__img-id{
-    position: absolute;
-    max-width: 450px;
-    height: 70px;
-    padding-left: 15%;
-    top: 5px;
-    
-    }
-    .podex-eclipce2{
-    box-sizing: border-box;
-    position: absolute;
-    left: 917px;
-    top: 68px;
-  
-    }
-    .podex-eclipce1{
-    box-sizing: border-box;
-    position: absolute;
-    left: 900px;
-    }
-
-    .moves__container{
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        gap: 15px 5px;
-        justify-items: center;
-        /* padding: 10px 5px 30px; */
-        background-color: #030706;
-        bottom: auto;
-        margin-bottom: 200px ;
-        font-size: 13px;
-        
-    }
-
-    .move__type{
-        border-radius: 10px;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        padding-left: 6px;
-        padding-right: 6px;
-        font-size: 13px;
-        
-    }
-    .card-poke__moves{
-   
-    padding-left: 60px;
-    font-size: 13px;
-    
-  
-    }
-
-    .link-poke__bnt{
-        background-color: #1479FB;
-        width: 20%;
-        position: absolute;
-        height: 30px;
-        border-radius: 15px;
-        top: 800px;
-        bottom: 20%;
-        left: 50%;
-        transform: translateX(-50%);
-        font-family:'Franklin Gothic Medium';
-        background-color: #9c9ec4;
-    
-    }
-    .link-poke__bnt:hover{
-        filter:brightness(1.1);
-    
-    }
-}
-
-
 
 
 .border-grass {
@@ -467,3 +395,112 @@
 .letter-unknown {
     color: #c81072;
 }
+
+
+@media (min-width: 768px) {
+    .card-pokemon2{
+        margin-top: 105px;
+        width: 80%;
+        max-width: 700px;
+        overflow: hidden;
+        height: auto;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    
+    
+    }
+    .card-poke__header2 {
+        height: 260px;
+        position: relative;
+        margin-top: 40px;
+        margin-bottom: 3px;
+
+    }
+    .card-poke__sprite2{
+        width: 50%;
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .card-poke__Stats2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        padding-left: 64px;
+    }
+    
+    .header_pokedex2{
+        margin-top: 0;
+        margin-right: auto;
+    
+    }
+   
+    .pokedex__img-id{
+    position: absolute;
+    max-width: 450px;
+    height: 70px;
+    padding-left: 15%;
+    top: 5px;
+    
+    }
+    .podex-eclipce2{
+    box-sizing: border-box;
+    position: absolute;
+    left: 917px;
+    top: 68px;
+  
+    }
+    .podex-eclipce1{
+    box-sizing: border-box;
+    position: absolute;
+    left: 900px;
+    }
+
+    .moves__container{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 20px 5px;
+        justify-items: center;
+        /* padding: 10px 5px 30px; */
+        background-color: #030706;
+        bottom: auto;
+        margin-bottom: 150px ;
+        margin-top: 30px ;
+        font-size: 13px;
+        
+    }
+
+    .move__type{
+        border-radius: 10px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+        font-size: 13px;
+        
+    }
+    .card-poke__moves{
+   
+    padding-left: 60px;
+    font-size: 1.8rem;
+    }
+
+    .link-poke__bnt{
+        width: 20%;
+        position: absolute;
+        height: 30px;
+        border-radius: 15px;
+        top: 90%;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family:'Franklin Gothic Medium';
+        background-color: #9c9ec4;
+    }
+    .link-poke__bnt:hover{
+        filter:brightness(1.1);
+    }
+}
+
