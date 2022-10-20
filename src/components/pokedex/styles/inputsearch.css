@@ -1,0 +1,22 @@
+.pokedex__input{
+    padding: 10px 20px;
+    box-shadow: -1px 3px 5px rgba(232, 224, 224, 0.324);
+    font-size: 15px;
+    width: 190px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+.pokedex__btn{
+    padding: 10px 20px;
+    color: var(--color-white);
+    background-color: var(--color-red);
+    box-shadow: -1px 3px 5px rgba(232, 224, 224, 0.324);
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+
+}
+.pokedex__btn:hover {
+    filter: opacity(1.5);
+}

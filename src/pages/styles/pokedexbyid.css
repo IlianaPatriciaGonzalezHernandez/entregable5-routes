@@ -1,0 +1,469 @@
+.card-pokemon2{
+    margin-top: 40px;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 13px;
+    overflow: hidden;
+    /* border-width: 10px;
+    border-style: solid; */
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(177.03deg, #030706 -11.97%, #0D1211 57.49%, #5A5E5D 135.64%);
+
+}
+.card-poke__header2{
+    height: 160px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.card-poke__sprite2{
+    width: 50%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card-poke__body2 {
+    margin-bottom: 10px;
+}
+
+.card-poke__name2{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: -2px;
+    font-family:'Franklin Gothic Medium';
+}
+.card-poke__types-container2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family:'Franklin Gothic Medium';
+}
+.card-poke__type2{
+    font-size: 17px;
+    text-transform: capitalize;
+    position: relative;
+    font-family:'Franklin Gothic Medium';
+    color: #050009;
+    padding: 5px;
+
+}
+.card-poke__type2:nth-child(2)::before {
+    content: '/';
+    position: absolute;
+    left: -10px;
+    color: white;
+}
+.card-poke__abilities2{
+    font-size: 17px;
+    text-transform: capitalize;
+    position: relative;
+    font-family:'Franklin Gothic Medium';
+    color: white;
+
+}
+.card-poke__type-label2{
+    text-align: center;
+    font-size: 14px;
+    color:#ecdbdbbf;
+    margin-bottom: 1rem;
+    font-family:'Franklin Gothic Medium';
+
+}
+.card-poke__stats-container2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 5px;
+    justify-items: center;
+    padding: 10px 5px 20px;
+}
+.card-poke__stat2 {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card-poke__stat-label2{
+    color:#ecdbdbbf;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family:'Franklin Gothic Medium';
+}
+.card-poke__stat-number2{
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium';
+
+}
+.card-poke__Stats2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 10px;
+    font-family:'Franklin Gothic Medium';
+    color:#ecdbdbbf;
+}
+.card-poke__moves{
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-bottom: 0px;;
+    padding-left: 10px;
+    font-family:'Franklin Gothic Medium';
+    color:#ecdbdbbf;
+}
+
+.moves__container{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px 10px;
+    justify-items: center;
+    padding: 5px 5px 5px;
+    bottom: 350px;
+    margin-bottom: 200px;
+    font-size: 13px;
+}
+.move__type{
+    padding: auto auto;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+   
+    border-radius: 20px;
+    font-family:  'Arial Narrow';
+    font-size: 15px;
+    color: white;
+    border: 2px;
+    font-size: 13px;
+}
+.card-poke__stat-number{
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.link-poke__bnt{
+  
+    width: 30%;
+    position: absolute;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family:'Franklin Gothic Medium';
+    background-color: #9c9ec4;
+    box-shadow: 2px 5px 10px rgb(124, 122, 132);
+}
+.link-poke__bnt:hover{
+    filter:brightness(1.1);
+
+}
+
+
+@media (min-width: 768px) {
+    .card-pokemon2{
+        margin-top: 20px;
+        width: 80%;
+        max-width: 700px;
+        overflow: hidden;
+        height: auto;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    
+    
+    }
+    .card-poke__header2 {
+        height: 260px;
+        position: relative;
+        margin-top: 40px;
+        margin-bottom: 3px;
+
+    }
+    .card-poke__sprite2{
+        width: 50%;
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .card-poke__Stats2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        padding-left: 64px;
+    }
+    
+    .header_pokedex2{
+        margin-top: 0;
+        margin-right: auto;
+    
+    }
+   
+    .pokedex__img-id{
+    position: absolute;
+    max-width: 450px;
+    height: 70px;
+    padding-left: 15%;
+    top: 5px;
+    
+    }
+    .podex-eclipce2{
+    box-sizing: border-box;
+    position: absolute;
+    left: 917px;
+    top: 68px;
+  
+    }
+    .podex-eclipce1{
+    box-sizing: border-box;
+    position: absolute;
+    left: 900px;
+    }
+
+    .moves__container{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 15px 5px;
+        justify-items: center;
+        /* padding: 10px 5px 30px; */
+        background-color: #030706;
+        bottom: auto;
+        margin-bottom: 200px ;
+        font-size: 13px;
+        
+    }
+
+    .move__type{
+        border-radius: 10px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 6px;
+        padding-right: 6px;
+        font-size: 13px;
+        
+    }
+    .card-poke__moves{
+   
+    padding-left: 60px;
+    font-size: 13px;
+    
+  
+    }
+
+    .link-poke__bnt{
+        background-color: #1479FB;
+        width: 20%;
+        position: absolute;
+        height: 30px;
+        border-radius: 15px;
+        top: 800px;
+        bottom: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family:'Franklin Gothic Medium';
+        background-color: #9c9ec4;
+    
+    }
+    .link-poke__bnt:hover{
+        filter:brightness(1.1);
+    
+    }
+}
+
+
+
+
+.border-grass {
+    border-color: #8ab896;
+}
+.border-fire {
+    border-color: #E75C35;
+}
+.border-water {
+    border-color: #1479FB;
+}
+.border-bug {
+    border-color: #3BB039;
+}
+.border-flying {
+    border-color: #7C3F4C;
+}
+.border-ground {
+    border-color: #96402A;
+}
+.border-poison {
+    border-color: #A564E3;
+}
+.border-ghost {
+    border-color: #454AA8;
+}
+.border-rock {
+    border-color: #7E7E7E;
+}
+.border-dark {
+    border-color: #0D1211;
+}
+.border-ice {
+    border-color: #64CBF5;
+}
+.border-steel {
+    border-color: #728881;
+}
+.border-dragon {
+    border-color: #56A4AE;
+}
+.border-fairy {
+    border-color: #C23867;
+}
+.border-electric {
+    border-color: #2B319B;
+}
+.border-normal {
+    border-color: #d6e32c;
+}
+.border-fighting {
+    border-color: #D69638;
+}
+.border-psychic {
+    border-color: #e92b77;
+}
+.border-shadow {
+    border-color: #4b1c51;
+}
+.border-unknown {
+    border-color: #b045a3;
+}
+
+
+.bg-fire {
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+}
+.bg-water {
+    background: linear-gradient(179.57deg, #133258 -40.14%, #1479FB 50.16%, #82B2F1 200.85%);
+}
+.bg-bug {
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+}
+.bg-flying {
+    background: linear-gradient(181.51deg, #735259 -6.44%, #BC6B7C 121.95%, #7C3F4C 186.11%);
+}
+.bg-ground {
+    background: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%);
+}
+.bg-poison {
+    background: linear-gradient(177.03deg, #5B3184 -11.97%, #A564E3 71.28%, #CE9BFF 135.64%);
+}
+.bg-ghost {
+    background: linear-gradient(177.03deg, #323569 -11.97%, #454AA8 57.49%, #787DDA 135.64%);
+}
+.bg-rock {
+    background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+}
+.bg-dark {
+    background: linear-gradient(177.03deg, #030706 -11.97%, #0D1211 57.49%, #5A5E5D 135.64%);
+}
+.bg-ice {
+    background: linear-gradient(177.03deg, #6FBEDF -11.97%, #64CBF5 47.77%, #BDEBFE 136.72%);
+}
+.bg-steel {
+    background: linear-gradient(179.75deg, #5E736C -19.96%, #728881 43.67%, #A8A8A8 138.4%);
+}
+.bg-dragon {
+    background: linear-gradient(179.75deg, #478A93 -19.96%, #56A4AE 43.67%, #A2BEC1 138.4%);
+}
+.bg-fairy{
+    background: linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%);
+}
+.bg-electric {
+    background: linear-gradient(179.75deg, #0C1395 -19.96%, #2B319B 43.67%, #7075D9 138.4%);
+}
+.bg-normal{
+    background: linear-gradient(179.75deg, #a7aa07 -19.96%, #d6e32c 43.67%, #e7e982 138.4%);
+}
+.bg-fighting {
+    background: linear-gradient(179.75deg, #654008 -19.96%, #895C1A 43.67%, #D69638 138.4%);
+}
+.bg-psychic {
+    background: linear-gradient(179.75deg, #660a44 -19.96%, #e92b77 43.67%, #df86ae 138.4%);
+}
+.bg-shadow {
+    background: linear-gradient(179.75deg, #050009 -19.96%, #521f53 43.67%, #4b1c51 138.4%);
+}
+.bg-unknown {
+    background: linear-gradient(179.75deg, #c81072 -19.96%, #b045a3 43.67%, #caa3c0 138.4%);
+}
+.bg-grass {
+    background: linear-gradient(179.75deg, #7EC6C5 -19.96%, #ABDAC6 43.67%, #CAE099 138.4%);
+}
+/*letter color */
+
+.letter-grass {
+    color: #416460;
+} 
+.letter-fire {
+    color: #E75C35;
+}
+.letter-water {
+    color: #1479FB;
+}
+.letter-bug {
+    color: #3BB039;
+}
+.letter-flying {
+    color: #7C3F4C;
+}
+.letter-ground {
+    color: #96402A;
+}
+.letter-poison {
+    color: #5B3184;
+}
+.letter-ghost {
+    color: #323569;
+}
+.letter-rock {
+    color: #7E7E7E;
+}
+.letter-dark {
+    color: #0D1211;
+}
+.letter-ice {
+    color: #64CBF5;
+}
+.letter-steel {
+    color: #728881;
+}
+.letter-dragon {
+    color: #478A93;
+}
+.letter-fairy {
+    color: #971B45;
+}
+.letter-electric {
+    color: #0C1395;
+}
+.letter-normal {
+    color: #a7aa07;
+}
+.letter-fighting {
+    color: #654008;
+}
+.letter-psychic {
+    color: #660a44;
+}
+.letter-shadow {
+    color: #4b1c51;
+}
+.letter-unknown {
+    color: #c81072;
+}

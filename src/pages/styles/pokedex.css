@@ -1,0 +1,85 @@
+.header_pokedex{
+    margin-top: 0;
+    margin-right: auto;
+
+}
+.pokedex-border-red{
+/* position: absolute; */
+width: 100%;
+height: 70px;
+left: 0px;
+top: 0px;
+background: #DD1A1A;
+
+}
+.pokedex-border-black{
+position: absolute;
+width: 100%;
+height: 30px;
+left: 0px;
+top: 70px;
+background: #0C0C0C;
+
+}
+.pokedex__img-id{
+position: absolute;
+max-width: 300px;
+height: 70px;
+left: auto;
+top: 5px;
+
+}
+.podex-eclipce2{
+box-sizing: border-box;
+position: absolute;
+width: 33px;
+height: 33px;
+left: 380px;
+top: 68px;
+background: #212121;
+border: 12px solid #000000;
+border-radius: 50px;
+
+}
+.podex-eclipce1{
+box-sizing: border-box;
+position: absolute;
+width: 67px;
+height: 67px;
+left: 362px;
+top: 51px;
+background: #FFFFFF;
+border: 12px solid #000000;
+border-radius: 180px;
+}
+
+.pokedex__wellcome{
+   
+    font-size: 1.2rem;
+    margin-top: 80px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+ 
+}
+.card__username-trainor {
+    color: #D93F3F;
+}
+
+
+.card-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 20px;
+    background: linear-gradient(177.03deg, #5A5E5D -35.64%, #0D1211 57.49%, #5A5E5D 135.64%);
+    font-family: 'Franklin Gothic Medium';
+   
+}
